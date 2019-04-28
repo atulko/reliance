@@ -17,4 +17,14 @@ public class HomeController {
 		return "welcome";
 	}
 	
+	
+	@GetMapping("/data")
+	public String getData()
+	{
+		
+		return "This is demo";
+	}
+	
+	
+	
 }
